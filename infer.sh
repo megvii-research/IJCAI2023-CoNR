@@ -9,6 +9,6 @@ python3 -m torch.distributed.launch \
 --test_output_dir=./results/ \
 --test_checkpoint_dir=./weights/ 
 
-echo Generating video...
+echo Generating Video...
 ffmpeg -r 30 -y -i ./results/%d.png -r 30 -c:v libx264 output.mp4 -r 30
 echo DONE.
