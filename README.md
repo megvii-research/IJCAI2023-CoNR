@@ -91,7 +91,7 @@ then open your browser and visit `localhost:8501`, follow the instructions to ge
 ```
 mkdir {dir_to_save_result}
 
-python3 -m torch.distributed.launch \
+python -m torch.distributed.launch \
 --nproc_per_node=1 train.py --mode=test \
 --world_size=1 --dataloaders=2 \
 --test_input_poses_images={dir_to_poses} \
