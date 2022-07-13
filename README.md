@@ -1,4 +1,3 @@
-# CoNR
 # CoNR: Collaborative Neural Rendering using Anime Character Sheets
 
 ---
