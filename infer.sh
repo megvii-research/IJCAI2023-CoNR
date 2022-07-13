@@ -1,7 +1,7 @@
 rm -r "./results"
 mkdir "./results"
 
-rlaunch --gpu=1 --cpu=4 --memory=25600 -- python3 -m torch.distributed.launch \
+python3 -m torch.distributed.launch \
 --nproc_per_node=1 train.py --mode=test \
 --world_size=1 --dataloaders=2 \
 --test_input_poses_images=./test_data/ \

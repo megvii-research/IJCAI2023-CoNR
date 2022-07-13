@@ -5,7 +5,7 @@ weights/
 x264/
 *.mp3
 *.mp4
-*.txt
+filelist.txt
 *.png
 complex_infer.sh
 __pycache__/
