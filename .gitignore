@@ -9,3 +9,4 @@ filelist.txt
 *.png
 complex_infer.sh
 __pycache__/
+.gitignore
