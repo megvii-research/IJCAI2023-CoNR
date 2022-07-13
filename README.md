@@ -10,6 +10,7 @@
 ## Introduction
 
 This project is the official implement of [Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378), which aims to genarate vivid dancing videos from hand-drawn anime character sheets(ACS). Watch more demos in our [HomePage](https://conr.ml).
+Contributors:
 
 ## Usage
 
@@ -101,3 +102,14 @@ python3 -m torch.distributed.launch \
 
 ffmpeg -r 30 -y -i {dir_to_save_result}/%d.png -r 30 -c:v libx264 output.mp4 -r 30
 ```
+
+## Citation
+```bibtex
+@article{lin2022conr,
+  title={Collaborative Neural Rendering using Anime Character Sheets},
+  author={Lin, Zuzeng and Huang, Ailin and Huang, Zhewei and Hu, Chen and Zhou, Shuchang},
+  journal={arXiv preprint arXiv:2207.05378},
+  year={2022}
+}
+```
+
