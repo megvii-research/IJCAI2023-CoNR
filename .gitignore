@@ -1,6 +1,7 @@
 results/
 test_data/
 test_data_pre/
+character_sheet/
 weights/
 x264/
 *.mp3
@@ -9,4 +10,3 @@ filelist.txt
 *.png
 complex_infer.sh
 __pycache__/
-.gitignore
