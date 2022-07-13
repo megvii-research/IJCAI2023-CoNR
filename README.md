@@ -5,7 +5,7 @@
 
 ##[HomePage](https://conr.ml) | Colab | [arXiv](https://arxiv.org/abs/2207.05378)
 
-![image](MAIN.png)
+![image](images/MAIN.png)
 
 
 ## Introduction
