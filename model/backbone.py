@@ -1,3 +1,7 @@
+"""
+This code was mostly taken from backbone-unet by mkisantal:
+https://github.com/mkisantal/backboned-unet/blob/master/backboned_unet/unet.py
+"""
 import torch
 import torch.nn as nn
 from torchvision import models
