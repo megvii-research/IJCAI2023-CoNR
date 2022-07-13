@@ -7,6 +7,5 @@ x264/
 *.mp3
 *.mp4
 filelist.txt
-*.png
 complex_infer.sh
 __pycache__/
