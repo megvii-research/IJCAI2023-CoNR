@@ -12,6 +12,7 @@ from data_loader import (FileDataset,
                          RandomResizedCropWithAutoCenteringAndZeroPadding)
 from torch.utils.data.distributed import DistributedSampler
 from conr import CoNR
+from tqdm import tqdm
 
 def data_sampler(dataset, shuffle, distributed):
 
@@ -123,7 +124,7 @@ def infer(args, humanflowmodel, image_names_list):
     time_stamp = time.time()
     prev_frame_rgb = []
     prev_frame_a = []
-    for i, data in enumerate(train_data):
+    for i, data in tqdm(enumerate(train_data)):
         data_time_interval = time.time() - time_stamp
         time_stamp = time.time()
         with torch.no_grad():
@@ -137,11 +138,11 @@ def infer(args, humanflowmodel, image_names_list):
 
         train_time_interval = time.time() - time_stamp
         time_stamp = time.time()
-        if i % 5 == 0 and args.local_rank == 0:
-            print("[infer batch: %4d/%4d] time:%2f+%2f" % (
-                i, train_num,
-                data_time_interval, train_time_interval
-            ))
+        # if i % 5 == 0 and args.local_rank == 0:
+        #     print("[infer batch: %4d/%4d] time:%2f+%2f" % (
+        #         i, train_num,
+        #         data_time_interval, train_time_interval
+        #     ))
         with torch.no_grad():
 
             if args.test_output_video:
