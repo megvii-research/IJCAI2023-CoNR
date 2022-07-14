@@ -71,35 +71,6 @@ def test():
     conrmodel.dist()
     infer(args, conrmodel, image_names_list)
 
-# def test():
-#     source_names_list = []
-#     for name in os.listdir(args.test_input_person_images):
-#         thissource = os.path.join(args.test_input_person_images, name)
-#         if os.path.isfile(thissource):
-#             source_names_list.append([thissource])
-#         if os.path.isdir(thissource):
-#             toadd = [os.path.join(thissource, this_file)
-#                      for this_file in os.listdir(thissource)]
-#             if (toadd != []):
-#                 source_names_list.append(toadd)
-#             else:
-#                 print("skipping empty folder :"+thissource)
-#     image_names_list = []
-#     for eachlist in source_names_list:
-#         for name in sorted(os.listdir(args.test_input_poses_images)):
-#             thistarget = os.path.join(args.test_input_poses_images, name)
-#             if os.path.isfile(thistarget):
-#                 image_names_list.append([thistarget, *eachlist])
-#             if os.path.isdir(thistarget):
-#                 print("skipping folder :"+thistarget)
-
-#     print(image_names_list)
-#     print("---building models...")
-#     conrmodel = CoNR(args)
-#     conrmodel.load_model(path=args.test_checkpoint_dir)
-#     conrmodel.dist()
-#     infer(args, conrmodel, image_names_list)
-
 
 def infer(args, humanflowmodel, image_names_list):
     print("---test images: ", len(image_names_list))
@@ -124,7 +95,9 @@ def infer(args, humanflowmodel, image_names_list):
     time_stamp = time.time()
     prev_frame_rgb = []
     prev_frame_a = []
-    for i, data in tqdm(enumerate(train_data)):
+    
+    pbar = tqdm(range(train_num), ncols=100)
+    for i, data in enumerate(train_data):
         data_time_interval = time.time() - time_stamp
         time_stamp = time.time()
         with torch.no_grad():
@@ -138,11 +111,10 @@ def infer(args, humanflowmodel, image_names_list):
 
         train_time_interval = time.time() - time_stamp
         time_stamp = time.time()
-        # if i % 5 == 0 and args.local_rank == 0:
-        #     print("[infer batch: %4d/%4d] time:%2f+%2f" % (
-        #         i, train_num,
-        #         data_time_interval, train_time_interval
-        #     ))
+        if args.local_rank == 0:
+            pbar.set_description(f"Epoch {i}/{train_num}")
+            pbar.set_postfix({"data_time": data_time_interval, "train_time":train_time_interval})
+
         with torch.no_grad():
 
             if args.test_output_video:
