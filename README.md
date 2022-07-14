@@ -40,10 +40,10 @@ Download weights from Google Drive. Alternatively, you can download from [Baidu 
 
 ```
 mkdir weights && cd weights
-wget https://drive.google.com/file/d/1M1LEpx70tJ72AIV2TQKr6NE_7mJ7tLYx/view?usp=sharing
-wget https://drive.google.com/file/d/1YvZy3NHkJ6gC3pq_j8agcbEJymHCwJy0/view?usp=sharing
-wget https://drive.google.com/file/d/1AOWZxBvTo9nUf2_9Y7Xe27ZFQuPrnx9i/view?usp=sharing
-wget https://drive.google.com/file/d/19jM1-GcqgGoE1bjmQycQw_vqD9C5e-Jm/view?usp=sharing
+gdown https://drive.google.com/uc?id=1M1LEpx70tJ72AIV2TQKr6NE_7mJ7tLYx
+gdown https://drive.google.com/uc?id=1YvZy3NHkJ6gC3pq_j8agcbEJymHCwJy0
+gdown https://drive.google.com/uc?id=1AOWZxBvTo9nUf2_9Y7Xe27ZFQuPrnx9i
+gdown https://drive.google.com/uc?id=19jM1-GcqgGoE1bjmQycQw_vqD9C5e-Jm
 ```
 
 #### Prepare inputs
@@ -52,12 +52,12 @@ We prepared two Ultra-Dense Pose sequences for two characters, you can generate 
 
 ```
 # for short hair girl
-wget https://drive.google.com/file/d/11HMSaEkN__QiAZSnCuaM6GI143xo62KO/view?usp=sharing
+gdown https://drive.google.com/uc?id=11HMSaEkN__QiAZSnCuaM6GI143xo62KO
 unzip short_hair.zip
 mv short_hair/ poses/
 
 # for double ponytail girl
-wget https://drive.google.com/file/d/1WNnGVuU0ZLyEn04HzRKzITXqib1wwM4Q/view?usp=sharing
+gdown https://drive.google.com/uc?id=1WNnGVuU0ZLyEn04HzRKzITXqib1wwM4Q
 unzip double_ponytail.zip
 mv double_ponytail/ poses/
 ```
@@ -66,12 +66,12 @@ We provide sample inputs of anime character sheets, you can also draw more by yo
 
 ```
 # for short hair girl
-wget https://drive.google.com/file/d/1r-3hUlENSWj81ve2IUPkRKNB81o9WrwT/view?usp=sharing
+gdown https://drive.google.com/uc?id=1r-3hUlENSWj81ve2IUPkRKNB81o9WrwT
 unzip short_hair_images.zip
 mv short_hair_images/ character_sheet/
 
 # for double ponytail girl
-wget https://drive.google.com/file/d/1XMrJf9Lk_dWgXyTJhbEK2LZIXL9G3MWc/view?usp=sharing
+gdown https://drive.google.com/uc?id=1XMrJf9Lk_dWgXyTJhbEK2LZIXL9G3MWc
 unzip double_ponytail_images.zip
 mv double_ponytail_images/ character_sheet/
 ```
