@@ -285,7 +285,7 @@ class CoNR():
         pred["shader"].update({
             "x_target_sudp_a": x_target_sudp_a
         })
-        _, features = self.traget_pose_encoder(
+        _, features = self.target_pose_encoder(
             (x_target_sudp_a-0.6)/0.2970, ret_parser_out=False)
 
         pred["shader"]["target_pose_features"] = features
