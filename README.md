@@ -1,7 +1,7 @@
 # CoNR: Collaborative Neural Rendering using Anime Character Sheets
 
 
-## [HomePage](https://conr.ml) | Colab(comming very soon) | [arXiv](https://arxiv.org/abs/2207.05378)
+## [HomePage](https://conr.ml) | Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378)
 
 ![image](images/MAIN.png)
 
