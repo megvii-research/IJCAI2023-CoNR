@@ -114,6 +114,7 @@ def infer(args, humanflowmodel, image_names_list):
         if args.local_rank == 0:
             pbar.set_description(f"Epoch {i}/{train_num}")
             pbar.set_postfix({"data_time": data_time_interval, "train_time":train_time_interval})
+            pbar.update(1)
 
         with torch.no_grad():
 
