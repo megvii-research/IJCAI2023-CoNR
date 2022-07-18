@@ -64,6 +64,7 @@ mv double_ponytail/ poses/
 ```
 
 We provide sample inputs of anime character sheets, you can also draw more by yourself.
+[Baidu Netdisk](https://pan.baidu.com/s/1shpP90GOMeHke7MuT0-Txw?pwd=RDxc) (password:RDxc) 
 
 ```
 # for short hair girl
