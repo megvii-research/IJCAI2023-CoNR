@@ -48,7 +48,7 @@ gdown https://drive.google.com/uc?id=19jM1-GcqgGoE1bjmQycQw_vqD9C5e-Jm
 ```
 
 #### Prepare inputs
-We prepared two Ultra-Dense Pose sequences for two characters, you can generate more UDPs via 3D models and motions. 
+We prepared two Ultra-Dense Pose sequences for two characters. You can generate more UDPs via 3D models and motions refers to [our paper](ttps://arxiv.org/abs/2207.05378).
 [Baidu Netdisk](https://pan.baidu.com/s/1hWvz4iQXnVTaTSb6vu1NBg?pwd=RDxc) (password:RDxc) 
 
 ```
@@ -63,7 +63,8 @@ unzip double_ponytail.zip
 mv double_ponytail/ poses/
 ```
 
-We provide sample inputs of anime character sheets, you can also draw more by yourself.
+We provide sample inputs of anime character sheets. You can also draw more by yourself.
+Character sheets need to be cut out from the background and in png format.
 [Baidu Netdisk](https://pan.baidu.com/s/1shpP90GOMeHke7MuT0-Txw?pwd=RDxc) (password:RDxc) 
 
 ```
