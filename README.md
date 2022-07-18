@@ -1,4 +1,5 @@
-# CoNR: Collaborative Neural Rendering using Anime Character Sheets </br> CoNR: 用于二次元手绘设定稿动画化的神经渲染器
+[English](https://github.com/megvii-research/CoNR/blob/main/README.md) | [中文](https://github.com/megvii-research/CoNR/blob/main/README_chinese.md)
+# CoNR: Collaborative Neural Rendering using Anime Character Sheets 
 
 
 ## [HomePage](https://conr.ml) | Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378)
@@ -8,8 +9,6 @@
 ## Introduction
 
 This project is the official implement of [Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378), which aims to genarate vivid dancing videos from hand-drawn anime character sheets(ACS). Watch more demos in our [HomePage](https://conr.ml).
-
-该项目为论文[Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378)的官方复现，旨在从手绘人物设定稿生成生动的舞蹈动画。您可以在我们的[主页](https://conr.ml)中查看更多视频 demo。
 
 Contributors: [@transpchan](https://github.com/transpchan/), [@P2Oileen](https://github.com/P2Oileen), [@hzwer](https://github.com/hzwer)
 
