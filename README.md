@@ -1,5 +1,4 @@
-# CoNR: Collaborative Neural Rendering using Anime Character Sheets
-CoNR: 用于二次元手绘设定稿动画化的神经渲染器
+# CoNR: Collaborative Neural Rendering using Anime Character Sheets </br> CoNR: 用于二次元手绘设定稿动画化的神经渲染器
 
 
 ## [HomePage](https://conr.ml) | Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378)
