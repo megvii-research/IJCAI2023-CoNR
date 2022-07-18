@@ -64,6 +64,7 @@ mv double_ponytail/ poses/
 ```
 
 我们提供两个人物手绘设定表的样例，从以下代码中二选一运行，即可从 Google Drive下载。您也可以自行绘制。
+请注意：人物手绘设定表**必须从背景中分割开**，且必须为png格式。
 [百度云盘](https://pan.baidu.com/s/1shpP90GOMeHke7MuT0-Txw?pwd=RDxc) (password:RDxc) 
 
 ```
