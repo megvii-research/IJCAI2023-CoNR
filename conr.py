@@ -248,7 +248,7 @@ class CoNR():
             (num_samples, num_pose_images, encoder_out.shape[1], encoder_out.shape[2], encoder_out.shape[3]))
 
         # apply sigmoid after eval loss
-        pred["pose_parser"] = {"pred":UDPClip(encoder_out)}
+        pred["pose_parser"] = {"pred":UDPClip(encoder_out)[:,0,:,:,:]}
         
 
         return pred
