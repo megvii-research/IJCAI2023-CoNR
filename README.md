@@ -1,8 +1,8 @@
 [English](https://github.com/megvii-research/CoNR/blob/main/README.md) | [中文](https://github.com/megvii-research/CoNR/blob/main/README_chinese.md)
-# CoNR: Collaborative Neural Rendering using Anime Character Sheets 
+# Collaborative Neural Rendering using Anime Character Sheets 
 
 
-## [HomePage](https://conr.ml) | Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378)
+## [Homepage](https://conr.ml) | Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378)
 
 ![image](images/MAIN.png)
 
@@ -47,8 +47,8 @@ gdown https://drive.google.com/uc?id=1AOWZxBvTo9nUf2_9Y7Xe27ZFQuPrnx9i
 gdown https://drive.google.com/uc?id=19jM1-GcqgGoE1bjmQycQw_vqD9C5e-Jm
 ```
 
-#### Prepare inputs
-We prepared two Ultra-Dense Pose sequences for two characters. You can generate more UDPs via 3D models and motions refers to [our paper](ttps://arxiv.org/abs/2207.05378).
+#### Prepare Inputs
+We provide two Ultra-Dense Pose sequences for two characters. You can generate more UDPs via 3D models and motions refers to [our paper](https://arxiv.org/abs/2207.05378).
 [Baidu Netdisk](https://pan.baidu.com/s/1hWvz4iQXnVTaTSb6vu1NBg?pwd=RDxc) (password:RDxc) 
 
 ```
@@ -80,8 +80,6 @@ mv double_ponytail_images/ character_sheet/
 ```
 
 #### RUN!
-We provide two ways: with web UI or via terminal.
-
 * with web UI (powered by [Streamlit](https://streamlit.io/))
 
 ```
