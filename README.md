@@ -85,7 +85,7 @@ We provide two ways: with web UI or via terminal.
 * with web UI (powered by [Streamlit](https://streamlit.io/))
 
 ```
-streamlit run streamlit.py --server_port=8501
+streamlit run streamlit.py --server.port=8501
 ```
 then open your browser and visit `localhost:8501`, follow the instructions to genarate video.
 

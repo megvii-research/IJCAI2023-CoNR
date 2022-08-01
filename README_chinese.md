@@ -87,7 +87,7 @@ mv double_ponytail_images/ character_sheet/
 运行以下代码：
 
 ```
-streamlit run streamlit.py --server_port=8501
+streamlit run streamlit.py --server_port.8501
 ```
 
 然后打开浏览器并访问 `localhost:8501`, 根据页面内的指示生成视频。
