@@ -9,3 +9,6 @@ x264/
 filelist.txt
 complex_infer.sh
 __pycache__/
+poses/
+*.zip
+results_udp
