@@ -2,15 +2,14 @@
 # 用于二次元手绘设定稿动画化的神经渲染器
 
 
-## [HomePage](https://conr.ml) | Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378) | [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/)
+## Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378) | [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/)
 
 ![image](images/MAIN.png)
+![image](images/1.gif) ![image](images/2.gif)
 
 ## Introduction
 
 该项目为论文[Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378)的官方复现，旨在从手绘人物设定稿生成生动的舞蹈动画。您可以在我们的[B站视频](https://www.bilibili.com/video/BV19V4y1x7bJ/)（**强烈推荐**）中看到CoNR的内容详解和使用教程。
-
-贡献者: [@transpchan](https://github.com/transpchan/), [@P2Oileen](https://github.com/P2Oileen), [@hzwer](https://github.com/hzwer)
 
 ## 使用方法
 
