@@ -4,8 +4,8 @@
 
 ## Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378) | [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/)
 
-![image](images/MAIN.png)
 ![image](images/1.gif) ![image](images/2.gif)
+![image](images/MAIN.png)
 
 ## Introduction
 
