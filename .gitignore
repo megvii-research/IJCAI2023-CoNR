@@ -11,4 +11,5 @@ complex_infer.sh
 __pycache__/
 poses/
 *.zip
+*.tar
 results_udp
