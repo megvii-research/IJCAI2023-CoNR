@@ -2,7 +2,7 @@
 # Collaborative Neural Rendering using Anime Character Sheets 
 
 
-## Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378) | [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/)
+## Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [Hugging Face](https://huggingface.co/spaces/nev/CoNR) | [arXiv](https://arxiv.org/abs/2207.05378) | [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/) | [YouTube](https://youtu.be/Z4HXWBF7mLI)
 
 ![image](images/1.gif) ![image](images/2.gif)
 ![image](images/MAIN.png)
