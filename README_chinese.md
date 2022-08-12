@@ -48,7 +48,7 @@ gdown https://drive.google.com/uc?id=19jM1-GcqgGoE1bjmQycQw_vqD9C5e-Jm
 
 #### Prepare inputs
 我们为两个不同的人物，准备了两个超密集姿势（Ultra-Dense Pose）序列，从以下代码中二选一运行，即可从 Google Drive 下载。您可以通过任意的3D模型和动作数据，生成更多的超密集姿势序列，参考我们的[论文](https://arxiv.org/abs/2207.05378)。暂不提供官方转换接口。
-更新: 感谢 @KurisuMakise004 的(MMD2UDP)[https://github.com/KurisuMakise004/MMD2UDP]，为社区提供了MMD软件的UDP生成代码。
+更新: 感谢 @KurisuMakise004 的[MMD2UDP](https://github.com/KurisuMakise004/MMD2UDP)，为社区提供了MMD软件的UDP生成代码。
 [百度云盘](https://pan.baidu.com/s/1hWvz4iQXnVTaTSb6vu1NBg?pwd=RDxc) (password:RDxc) 
 
 ```
