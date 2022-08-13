@@ -3,6 +3,7 @@ import numpy as np
 import streamlit as st
 import os
 import base64
+import platform
 
 st.set_page_config(layout="wide", page_title='CoNR demo', page_icon="🪐")
 
@@ -43,7 +44,13 @@ if st.button('RUN!'):
                 f.write(upload_img[i].read())
 
         st.info('努力推理中...')
-        os.system('sh infer.sh')
+        if platform.system() == 'Windows':
+            os.system('infer.bat')
+        elif platform.system() == 'Linux':
+            os.system('sh infer.sh')
+        else:
+            raise NotImplementedError
+
         st.info('Done!')
         video_file=open('output.mp4', 'rb')
         video_bytes = video_file.read()
