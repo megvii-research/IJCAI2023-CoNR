@@ -35,4 +35,3 @@ output.mp4
 echo DONE.
 
 :END
-pause
