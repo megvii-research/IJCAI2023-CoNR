@@ -84,7 +84,7 @@ mv double_ponytail_images/ character_sheet/
 ```
 streamlit run streamlit.py --server.port=8501
 ```
-then open your browser and visit `localhost:8501`, follow the instructions to genarate video.
+then open your browser and visit `localhost:8501`, follow the instructions to generate video.
 
 * via terminal
 
