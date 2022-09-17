@@ -9,7 +9,7 @@
 
 ## Introduction
 
-该项目为论文[Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378)的官方复现，旨在从手绘人物设定稿生成生动的舞蹈动画。您可以在我们的[B站视频](https://www.bilibili.com/video/BV19V4y1x7bJ/)（**强烈推荐**）或者[YouTube视频](https://youtu.be/Z4HXWBF7mLI)中看到CoNR的内容详解和使用教程。
+该项目为论文[Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378)的官方复现，旨在从手绘人物设定稿生成生动的舞蹈动画。您可以在我们的[B站视频](https://www.bilibili.com/video/BV19V4y1x7bJ/)（**强烈推荐**）或者[YouTube视频](https://youtu.be/Z4HXWBF7mLI)中看到CoNR的内容详解和使用教程。我们在[知乎上的问答](https://zhuanlan.zhihu.com/p/565391665) 解释了 CoNR 背后的想法。
 
 ## 使用方法
 
