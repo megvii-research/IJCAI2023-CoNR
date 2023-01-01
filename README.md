@@ -1,8 +1,8 @@
 [English](https://github.com/megvii-research/CoNR/blob/main/README.md) | [中文](https://github.com/megvii-research/CoNR/blob/main/README_chinese.md)
-# Collaborative Neural Rendering using Anime Character Sheets 
+# Collaborative Neural Rendering using Anime Character Sheets [[superseded by Live3D v2](https://github.com/transpchan/Live3D-v2)]
 
 
-## [Demo Page](https://transpchan.github.io/live3d/) | Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [Hugging Face](https://huggingface.co/spaces/nev/CoNR) | [arXiv](https://arxiv.org/abs/2207.05378) | [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/) | [YouTube](https://youtu.be/Z4HXWBF7mLI)
+## [Demo Page](https://transpchan.github.io/live3d/) | Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378) | [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/) | [YouTube](https://youtu.be/Z4HXWBF7mLI)
 
 ![image](images/1.gif) ![image](images/2.gif)
 ![image](images/MAIN.png)
