@@ -1,3 +1,4 @@
+# same as https://github.com/transpchan/Live3D-v2/blob/main/model/decoder_small.py
 from torch import nn
 import torch.nn.functional as F
 import torch
