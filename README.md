@@ -105,11 +105,11 @@ ffmpeg -r 30 -y -i {dir_to_save_result}/%d.png -r 30 -c:v libx264 output.mp4 -r 
 
 ## Citation
 ```bibtex
-@article{lin2022conr,
+@inproceedings{lin2023conr,
   title={Collaborative Neural Rendering using Anime Character Sheets},
   author={Lin, Zuzeng and Huang, Ailin and Huang, Zhewei and Hu, Chen and Zhou, Shuchang},
-  journal={arXiv preprint arXiv:2207.05378},
-  year={2022}
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence (IJCAI)},
+  year={2023}
 }
 ```
 
