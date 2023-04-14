@@ -8,7 +8,7 @@
 ![image](images/MAIN.png)
 
 ## Introduction
-**Our paper is accepted by the Arts and Creativity of IJCAI2023, the revision of the paper and this repo is coming soon.**
+**Our paper is accepted by the Arts and Creativity of IJCAI2023, the revision of the paper is [available](https://arxiv.org/abs/2207.05378). The dataset is coming soon.
 
 This project is the official implement of [Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378), which aims to genarate vivid dancing videos from hand-drawn anime character sheets (ACS). Watch more demos and details in our firmly recommended video in [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/) or [YouTube](https://youtu.be/Z4HXWBF7mLI). Our [FAQ on Zhihu (in Chinese)](https://zhuanlan.zhihu.com/p/565391665) explains the ideas underpinning CoNR.
 
