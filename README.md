@@ -1,5 +1,5 @@
 [English](https://github.com/megvii-research/CoNR/blob/main/README.md) | [中文](https://github.com/megvii-research/CoNR/blob/main/README_chinese.md)
-# [IJCAI2023] Collaborative Neural Rendering using Anime Character Sheets [[superseded by Live3D v2](https://github.com/transpchan/Live3D-v2)]
+# Collaborative Neural Rendering using Anime Character Sheets
 
 Our paper is accepted by the Arts and Creativity of IJCAI2023, the revision of the paper is [available](https://arxiv.org/abs/2207.05378). The dataset is coming soon.
 
