@@ -1,6 +1,7 @@
 [English](https://github.com/megvii-research/CoNR/blob/main/README.md) | [中文](https://github.com/megvii-research/CoNR/blob/main/README_chinese.md)
 # [IJCAI2023] Collaborative Neural Rendering using Anime Character Sheets [[superseded by Live3D v2](https://github.com/transpchan/Live3D-v2)]
 
+Our paper is accepted by the Arts and Creativity of IJCAI2023, the revision of the paper is [available](https://arxiv.org/abs/2207.05378). The dataset is coming soon.
 
 ## [Demo Page](https://transpchan.github.io/live3d/) | Colab [English](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr.ipynb)/[中文](https://colab.research.google.com/github/megvii-research/CoNR/blob/main/notebooks/conr_chinese.ipynb) | [arXiv](https://arxiv.org/abs/2207.05378) | [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/) | [YouTube](https://youtu.be/Z4HXWBF7mLI)
 
@@ -8,7 +9,6 @@
 ![image](images/MAIN.png)
 
 ## Introduction
-**Our paper is accepted by the Arts and Creativity of IJCAI2023, the revision of the paper is [available](https://arxiv.org/abs/2207.05378). The dataset is coming soon.
 
 This project is the official implement of [Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378), which aims to genarate vivid dancing videos from hand-drawn anime character sheets (ACS). Watch more demos and details in our firmly recommended video in [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/) or [YouTube](https://youtu.be/Z4HXWBF7mLI). Our [FAQ on Zhihu (in Chinese)](https://zhuanlan.zhihu.com/p/565391665) explains the ideas underpinning CoNR.
 
