@@ -10,7 +10,7 @@ Our paper is accepted by the Arts and Creativity of IJCAI2023, the revision of t
 
 ## Introduction
 
-This project is the official implement of [Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378), which aims to genarate vivid dancing videos from hand-drawn anime character sheets (ACS). Watch more demos and details in our firmly recommended video in [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/) or [YouTube](https://youtu.be/Z4HXWBF7mLI). Our [FAQ on Zhihu (in Chinese)](https://zhuanlan.zhihu.com/p/565391665) explains the ideas underpinning CoNR.
+This project is the official implement of [Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/abs/2207.05378), which aims to genarate vivid dancing videos from hand-drawn anime character sheets (ACS).[^1] Watch more demos and details in our firmly recommended video in [BiliBili](https://www.bilibili.com/video/BV19V4y1x7bJ/) or [YouTube](https://youtu.be/Z4HXWBF7mLI). Our [FAQ on Zhihu (in Chinese)](https://zhuanlan.zhihu.com/p/565391665) explains the ideas underpinning CoNR.
 
 ## Usage
 
@@ -113,3 +113,5 @@ ffmpeg -r 30 -y -i {dir_to_save_result}/%d.png -r 30 -c:v libx264 output.mp4 -r 
 }
 ```
 
+[^1]: Zuzeng Lin is not involved in the submissions to AAAI23, and IJCAI23, which are done by other authors alone, after seeing the heartbreaking reviews from CVPR22 and ECCV22.
+He explored the idea of [assisting anime creation with AI](https://zhuanlan.zhihu.com/p/565391665) and proposed CoNR as a baseline to solve consistency and artistic control issues at the end of the year 2020.  Other authors revised his draft to its present state and made demo videos after he quit, but they are not involved in the [successor versions](https://github.com/transpchan/Live3D-v2). He appreciates the discussion with many people who are interested in this project, and Live3D public beta users in Sept. 2021.

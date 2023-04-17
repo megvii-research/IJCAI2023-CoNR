@@ -123,3 +123,5 @@ ffmpeg -r 30 -y -i {结果保存路径}/%d.png -r 30 -c:v libx264 output.mp4 -r 
 }
 ```
 
+[^1]: Zuzeng Lin 在看到CVPR22和ECCV22令人心碎的评论后，没有参与提交给AAAI23和IJCAI23，它们是由其他作者单独完成的。
+他探索了[用AI辅助动漫创作](https://zhuanlan.zhihu.com/p/565391665)的想法，并在2020年底提出了CoNR，作为解决一致性和艺术家可控性问题的基线。其他作者在他退出后修改了他的草稿并制作了演示视频，但他们不参与[后续版本](https://github.com/transpchan/Live3D-v2)的开发。 他感谢与许多对这个项目感兴趣的人以及 2021 年 9 月的 Live3D 公测用户的讨论。
