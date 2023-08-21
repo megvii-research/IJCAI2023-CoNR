@@ -1,7 +1,7 @@
 [English](https://github.com/megvii-research/CoNR/blob/main/README.md) | [中文](https://github.com/megvii-research/CoNR/blob/main/README_chinese.md)
 # Collaborative Neural Rendering using Anime Character Sheets
 
-Our paper is accepted by [Special Track of IJCAI2023](https://ijcai-23.org/special-track-on-ai-the-arts-and-creativity/) (three accept reviews), the revision of the paper is [available](https://arxiv.org/abs/2207.05378). 
+Our paper is accepted by [Special Track of IJCAI2023](https://ijcai-23.org/special-track-on-ai-the-arts-and-creativity/) (three reviews with "accept" ratings), the revision of the paper is [available](https://arxiv.org/abs/2207.05378). -> [poster](https://drive.google.com/file/d/140eVtOPv0tl7l1ptmExEfuNAEu2JN_Wd/view?usp=sharing)
 
 2023/4/18: The dataset is now avaliable in [CoNR_Dataset](https://github.com/P2Oileen/CoNR_Dataset)! 🎉
 
